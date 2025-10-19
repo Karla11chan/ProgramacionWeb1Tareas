@@ -59,3 +59,62 @@
     padding: 10px;
     box-sizing: border-box;
 }
+
+.texto-fuente{
+    background-color: rgb(72, 11, 102);
+    border:3px,dashed,cyan;
+    color: rgb(145, 180, 245);
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.propiedades--texto{
+    border: 2px,dotted,white;
+    padding: 5px;
+    margin:5px;
+    box-sizing: border-box;
+}
+
+.propiedades--texto h2{
+    color: floralwhite;
+    text-align: center;
+    border: 2px double silver;
+    text-transform: uppercase;
+    text-decoration: line-through ;
+    text-shadow: 2px 2px 2px blue;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-family: "Playwrite DE SAS";
+    font-size: xx-large;
+    font-weight:700;
+    font-style: italic;
+}
+.propiedades--texto p{
+    text-align: justify;
+    line-height: 1.5;
+}
+.propiedades--fuente{
+    border: 2px,dotted,white;
+    padding: 5px;
+    margin:5px;
+    box-sizing: border-box;
+}
+
+.propiedades--fuente h2{
+    color: floralwhite;
+    text-align: center;
+    border: 2px double silver;
+    text-transform: uppercase;
+    text-decoration: line-through ;
+    text-shadow: 2px 2px 2px blue;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-family: "Yarndings 20";
+    
+}
+
+.propiedades--fuente p{
+    text-align: justify;
+    line-height: 1.5;
+}
