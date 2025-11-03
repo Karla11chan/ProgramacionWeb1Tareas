@@ -1,0 +1,35 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}  
+
+.contenedor-flotante{
+    padding: 0;
+    border: 0.2em dashed violet;
+}
+
+.contenedor-flotante img{
+    width: 20%;
+    height: 10%;
+    float: right;
+}
+
+.contenedor-flotante p{
+    font-family: Georgia;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+/*Consultas de medios o medias queries:
+Sirven para definir estilos a elementos HTML según el tamaño de la la pantalla del dispositivo usado, gracias a esto, se nos proporciona una herramienta para la creación
+de diseños web responsivos y adaptables*/
+
+@media screen and(max-width:800px){
+   .contenedor-flotante p{
+        font-size: 2em; 
+   }
+}
